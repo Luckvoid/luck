@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512">
+  <defs>
+    <mask id="roundedMask">
+      <rect width="512" height="512" rx="80" ry="80" fill="white"/>
+    </mask>
+  </defs>
+  <g mask="url(#roundedMask)">
+    <!-- Fundo preto -->
+    <rect width="512" height="512" fill="#000000"/>
+    
+    <!-- Boneco com kimono -->
+    <!-- Cabeça -->
+    <circle cx="256" cy="140" r="45" fill="#FFE0BD" stroke="#000" stroke-width="2"/>
+    
+    <!-- Faixa preta (obi) na cintura -->
+    <rect x="200" y="240" width="112" height="20" fill="#1a1a1a" stroke="#000" stroke-width="1"/>
+    
+    <!-- Kimono (gi) - parte superior em V -->
+    <path d="M 256 180 L 220 200 L 200 240 L 200 280 L 256 280 L 256 180 Z" fill="#FFFFFF" stroke="#333" stroke-width="2"/>
+    <path d="M 256 180 L 292 200 L 312 240 L 312 280 L 256 280 L 256 180 Z" fill="#F5F5F5" stroke="#333" stroke-width="2"/>
+    
+    <!-- Gola do kimono -->
+    <path d="M 256 180 L 240 190 L 235 200 L 256 200 Z" fill="#E8E8E8" stroke="#333" stroke-width="1.5"/>
+    <path d="M 256 180 L 272 190 L 277 200 L 256 200 Z" fill="#DEDEDE" stroke="#333" stroke-width="1.5"/>
+    
+    <!-- Braços -->
+    <rect x="180" y="200" width="20" height="80" rx="10" fill="#FFFFFF" stroke="#333" stroke-width="2"/>
+    <rect x="312" y="200" width="20" height="80" rx="10" fill="#F5F5F5" stroke="#333" stroke-width="2"/>
+    
+    <!-- Mãos -->
+    <circle cx="190" cy="285" r="12" fill="#FFE0BD" stroke="#000" stroke-width="1.5"/>
+    <circle cx="322" cy="285" r="12" fill="#FFE0BD" stroke="#000" stroke-width="1.5"/>
+    
+    <!-- Parte inferior do kimono (calça) -->
+    <rect x="220" y="260" width="35" height="90" fill="#FFFFFF" stroke="#333" stroke-width="2"/>
+    <rect x="257" y="260" width="35" height="90" fill="#F5F5F5" stroke="#333" stroke-width="2"/>
+    
+    <!-- Pés -->
+    <ellipse cx="237" cy="355" rx="18" ry="8" fill="#FFE0BD" stroke="#000" stroke-width="1.5"/>
+    <ellipse cx="275" cy="355" rx="18" ry="8" fill="#FFE0BD" stroke="#000" stroke-width="1.5"/>
+    
+    <!-- Detalhes do rosto -->
+    <circle cx="245" cy="135" r="3" fill="#000"/>
+    <circle cx="267" cy="135" r="3" fill="#000"/>
+    <path d="M 246 148 Q 256 152 266 148" stroke="#000" stroke-width="2" fill="none"/>
+    
+    <!-- Faixa laranja atravessando (elemento de identidade) -->
+    <rect x="0" y="400" width="512" height="60" fill="#FF6B35" opacity="0.9"/>
+    <text x="256" y="438" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle">DOJO</text>
+  </g>
+</svg>
